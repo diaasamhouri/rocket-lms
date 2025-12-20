@@ -204,7 +204,7 @@ return [
         //KingFlamez\Rave\RaveServiceProvider::class,
 
         App\Providers\MinioStorageServiceProvider::class,
-        Ssheduardo\Redsys\RedsysServiceProvider::class,
+        // Ssheduardo\Redsys\RedsysServiceProvider::class, // Removed: incompatible with Laravel 9
         Jubaer\Zoom\ZoomServiceProvider::class,
         \Torann\GeoIP\GeoIPServiceProvider::class,
         niklasravnsborg\LaravelPdf\PdfServiceProvider::class,
@@ -239,7 +239,7 @@ return [
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
         'Share' => Jorenvh\Share\ShareFacade::class,
         //'Rave' => KingFlamez\Rave\Facades\Rave::class,
-        'Redsys'    => Ssheduardo\Redsys\Facades\Redsys::class,
+        // 'Redsys'    => Ssheduardo\Redsys\Facades\Redsys::class, // Removed: incompatible with Laravel 9
         'Zoom' => Jubaer\Zoom\Facades\Zoom::class,
         'GeoIP' => \Torann\GeoIP\Facades\GeoIP::class,
         'PDF' => niklasravnsborg\LaravelPdf\Facades\Pdf::class,
